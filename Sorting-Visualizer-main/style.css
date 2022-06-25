@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ID SELECTORS */
+#array_container {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  padding-left: 35%;
+}
+
+#generate_new_array {
+  margin: 1%;
+}
+
+/* CLASS SELECTORS */
+.algos {
+  margin-bottom: 20px;
+}
+.array_element {
+  background-color: lightblue;
+  border: black solid 1.5px;
+  margin: 0px !important;
+  width: 30px;
+}
+
+.btn-dark:hover {
+  background-color: transparent !important;
+  border-color: rgb(33, 37, 41) !important;
+  color: #000000 !important;
+  font-weight: 700 !important;
+}
+
+/* TAG SELECTORS */
+h1 {
+  color: #000000;
+  display: inline;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900 !important;
+  padding: 20%;
+}
